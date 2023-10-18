@@ -1,0 +1,26 @@
+.avatar {
+    width: 25%;
+    margin: 5% 37%;
+}
+.device {
+    margin: 5% 12.5%;
+}
+.about {
+    background-color: #0E0C7B;
+    color: hsl(297, 100%, 70%);
+}
+.aboutDiv {
+    padding-bottom: 50% !important;
+}
+h6 {
+    color: hsl(297, 100%, 70%) !important;
+}
+li {
+    margin-left: -40px !important;
+    list-style: none;
+    margin: auto;
+}
+
+@media screen and (min-width:) {
+    
+}
