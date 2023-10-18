@@ -20,3 +20,34 @@ li {
     list-style: none;
     margin: auto;
 }
+.cardSec {
+    margin-top: -25%;
+}
+.card {
+    width: 20rem !important;
+}
+@media screen and (min-width:700px) {
+    .cardSec {
+        margin-top: -15%;
+    }
+    .card {
+        width: 80% !important;
+    }
+    h5 {
+        font-size: 45px !important;
+    }
+    h6 {
+        font-size: 25px !important;
+    }
+    p h6 {
+        font-size: 20px !important;
+    }
+}
+@media screen and (min-width: 900px) {
+    .cardSec {
+        margin-top: -5%;
+    }
+    .card {
+        width: 35%;
+    }
+}
