@@ -21,7 +21,8 @@ li {
     margin: auto;
 }
 .cardSec {
-    margin-top: -25%;
+    position: relative;
+    top: -180px;
 }
 .card {
     width: 20rem !important;
@@ -37,7 +38,8 @@ li {
 }
 @media screen and (min-width:700px) {
     .cardSec {
-        margin-top: -15%;
+        position: relative;
+        top: -30px;
     }
     .card {
         width: 80%;
@@ -54,7 +56,8 @@ li {
 }
 @media screen and (min-width: 900px) {
     .cardSec {
-        margin-top: -5%;
+        position: relative;
+        top: -120px;
     }
     .card {
         width: 35%;
