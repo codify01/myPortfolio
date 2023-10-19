@@ -26,21 +26,30 @@ li {
 .card {
     width: 20rem !important;
 }
+.seeMore {
+    padding: 5px;
+    border-radius: 20px;
+    width: 180px !important;
+    border: 2px solid #F768FF;
+    background-color: none;
+    color: #F768FF;
+    margin: auto;
+}
 @media screen and (min-width:700px) {
     .cardSec {
         margin-top: -15%;
     }
     .card {
-        width: 80% !important;
+        width: 80%;
     }
     h5 {
-        font-size: 45px !important;
+        font-size: 45px;
     }
     h6 {
-        font-size: 25px !important;
+        font-size: 25px;
     }
     p h6 {
-        font-size: 20px !important;
+        font-size: 20px;
     }
 }
 @media screen and (min-width: 900px) {
