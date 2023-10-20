@@ -2,12 +2,20 @@
     width: 25%;
     margin: 5% 37%;
 }
+.btn-outline-success {
+    border:2px solid #F768FF !important;
+    color: #F768FF !important;
+}
+.btn-primary {
+    background-color: #0E0C7B !important;
+    border: none !important;
+}
 .device {
     margin: 5% 12.5%;
 }
 .about {
     background-color: #0E0C7B;
-    color: hsl(297, 100%, 70%);
+    color: whitesmoke;
 }
 .aboutDiv {
     padding-bottom: 50% !important;
@@ -24,28 +32,32 @@ li {
     position: relative;
     top: -180px;
 }
-.card {
-    width: 20rem !important;
+.service {
+    width: 21rem !important;
 }
 .seeMore {
     padding: 5px;
     border-radius: 20px;
     width: 180px !important;
     border: 2px solid #F768FF;
-    background-color: none;
+    background-color: transparent;
     color: #F768FF;
     margin: auto;
+}
+.project {
+    border-radius: 0 !important;
 }
 @media screen and (min-width:700px) {
     .cardSec {
         position: relative;
         top: -30px;
     }
-    .card {
-        width: 80%;
-    }
+    
     h5 {
-        font-size: 45px;
+        font-size: 35px !important;
+    }
+    .startup {
+        font-size: 35px;
     }
     h6 {
         font-size: 25px;
@@ -53,13 +65,20 @@ li {
     p h6 {
         font-size: 20px;
     }
+    .proud {
+        font-size: 25px;
+        width: 700px;
+    }
 }
 @media screen and (min-width: 900px) {
     .cardSec {
         position: relative;
         top: -120px;
     }
-    .card {
-        width: 35%;
+    
+    .proud {
+        font-size: 35px;
+        width: 700px;
     }
+    
 }
