@@ -48,11 +48,31 @@ li {
     margin: auto;
     text-decoration: none;
 }
+.seeMore2 {
+    padding: 5px;
+    border-radius: 20px;
+    width: 120px !important;
+    border: 2px solid #F768FF;
+    background-color: transparent;
+    color: white;
+    margin: auto;
+    text-decoration: none;
+}
 .d-grid {
     background-color: #0E0C7B  !important;
 }
+.connect {
+    margin-top: 50px;
+    background-color: #050441;
+    border-radius: 20px;
+    color: white;
+    
+}
 .project {
     border-radius: 0 !important;
+}
+footer {
+    background-color: #0E0C7B;
 }
 @media screen and (min-width:700px) {
     .cardSec {
