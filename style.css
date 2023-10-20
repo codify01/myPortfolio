@@ -13,6 +13,9 @@ body {
     background-color: #0E0C7B !important;
     border: none !important;
 }
+.startup {
+    font-size: 25px;
+}
 .device {
     margin: 5% 12.5%;
 }
