@@ -43,6 +43,10 @@ li {
     background-color: transparent;
     color: #F768FF;
     margin: auto;
+    text-decoration: none;
+}
+.d-grid {
+    background-color: rgb(17 15 134 / 90%)  !important;
 }
 .project {
     border-radius: 0 !important;
