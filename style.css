@@ -9,6 +9,11 @@ body {
     border:2px solid #F768FF !important;
     color: #F768FF !important;
 }
+.btn-outline-success:hover {
+    transition: 180ms;
+    background-color:#F768FF !important;
+    color: #050441 !important;
+}
 .btn-primary {
     background-color: #0E0C7B !important;
     border: none !important;
@@ -51,6 +56,13 @@ li {
     margin: auto;
     text-decoration: none;
 }
+.seeMore:hover{
+    transition: 180ms;
+    color: #050441;
+    /* font-weight: bold; */
+    background-color: #F768FF;
+
+}
 .seeMore2 {
     padding: 5px;
     border-radius: 20px;
@@ -60,6 +72,10 @@ li {
     color: white;
     margin: auto;
     text-decoration: none;
+}
+.seeMore2:hover {
+    transition: 180ms;
+    background-color: rgb(247 104 255 / 60%);
 }
 .d-grid {
     background-color: #0E0C7B  !important;
